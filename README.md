@@ -5,3 +5,9 @@
 
 ## ¿Qué puedo hacer con esto?
 - Puedes importar el enlace anterior en algún lector RSS o utilizarlo para recibir notificaciones en un bot de discord **_(Es el uso que le estoy dando actualmente)_** o darle el uso que requieras.
+
+# Licencia
+Este proyecto está bajo la licencia GNU GPLv3.
+Esto significa que:
+- **Crédito**: Debes dar crédito al autor original (En este caso a mi persona).
+- **Código Abierto**: Si modificas o usas este código en otro proyecto, ese proyecto también debe ser de código abierto bajo **la misma licencia**.
