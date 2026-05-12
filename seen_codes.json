@@ -1,0 +1,38 @@
+{
+  "codes": {
+    "KODOMONOHI2026": {
+      "first_seen": "2026-05-12T20:18:59.777231+00:00",
+      "expired": false,
+      "last_seen": "2026-05-12T20:18:59.777231+00:00"
+    },
+    "ENCORE": {
+      "first_seen": "2026-05-12T20:18:59.777231+00:00",
+      "expired": false,
+      "last_seen": "2026-05-12T20:18:59.777231+00:00"
+    },
+    "KARMA": {
+      "first_seen": "2026-05-12T20:18:59.777231+00:00",
+      "expired": false,
+      "last_seen": "2026-05-12T20:18:59.777231+00:00"
+    },
+    "FINDERSCREEPERS": {
+      "first_seen": "2026-05-12T20:18:59.777231+00:00",
+      "expired": false,
+      "last_seen": "2026-05-12T20:18:59.777231+00:00"
+    }
+  },
+  "history": [
+    {
+      "time": "2026-05-12T20:18:59.777231+00:00",
+      "title": "Actualización 2026-05-12 20:18:59 UTC",
+      "new": [
+        "ENCORE",
+        "FINDERSCREEPERS",
+        "KARMA",
+        "KODOMONOHI2026"
+      ],
+      "expired": [],
+      "item_xml": "\n    <item>\n      <title>Actualización 2026-05-12 20:18:59 UTC</title>\n      <description><![CDATA[<p><strong>Códigos nuevos:</strong></p><p>Código: ENCORE</p><p>Código: FINDERSCREEPERS</p><p>Código: KARMA</p><p>Código: KODOMONOHI2026</p><p><strong>Expirados:</strong><br/>(ninguno)</p>]]></description>\n      <pubDate>Tue, 12 May 2026 20:18:59 GMT</pubDate>\n    </item>\n    "
+    }
+  ]
+}
