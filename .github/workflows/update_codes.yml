@@ -1,0 +1,38 @@
+name: Actualizar códigos DBD
+
+on:
+  schedule:
+    # Corre cada hora. 
+    - cron: '0 * * * *'
+  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Revisar repo
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Instalar dependencias
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Correr Scrapper
+        run: python Script.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "Auto-Actualización: $(date -u) [skip ci]" || echo "Sin cambios para commitear"
+          git push
